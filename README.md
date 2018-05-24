@@ -29,10 +29,8 @@ git clone https://github.com/shawn-tangsc/WeexPlugin-HMGesUnlock
 3. 从终端进入项目`Podfile`所在的文件夹，然后执行初始化命令
 
 ``` bash
-pod install 
+pod update 
 ```
-
-4. 将git仓库中的Image.xcassets 添加到你的工程中。
 
 第二种，直接使用pod引入插件
 ------------------------------------
@@ -46,5 +44,13 @@ pod install
 2. 从终端进入项目`Podfile`所在的文件夹，然后执行初始化命令
 
 ``` bash
-pod install 
+pod update  
 ```
+
+
+引入初始图片：
+====================================
+1. 首先，在你的工程中，新建一个Image.xcassets 的文件夹
+2. 把我git工程中，image目录下的文件拖到你创建的Image.xcassets中
+3. 你可以自己按照尺寸去修改成你想要的图片，名字不要变。
+
